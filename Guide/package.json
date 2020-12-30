@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Adopt-a-Tree is an initiative by Carved Rock Fitness to adopt trees from various afforestation projects across the world.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "style": "node-sass --watch assets/scss/styles.scss assets/css/styles.css",
+    "guide": "node-sass --watch assets/scss/style-guide.scss assets/css/style-guide.css"
+  },
+  "author": "samir",
+  "license": "MIT"
+}

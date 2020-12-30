@@ -1,0 +1,7 @@
+// Convert Pixels to Percentages: Used for Font Sizes
+    // $target-font-size {number} : The desired font size for the target
+    //  $base-font-size	{number} : Base font size for the body's text
+
+@function px-to-percent($target-fz, $base-fz: 14) {
+    @return percentage($target-fz / $base-fz);
+}

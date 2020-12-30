@@ -1,0 +1,177 @@
+.btn-styleguide-menu {
+  background-color: #f1f1f1;
+  border-radius: 0;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 600px) {
+    .btn-styleguide-menu {
+      display: none; } }
+
+.styleguide-sidebar {
+  background-color: #fff;
+  font-weight: 600;
+  padding-bottom: 150px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1000;
+  transition: all 0.2s linear;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0; }
+  .styleguide-sidebar li {
+    margin-bottom: 0; }
+  @media (max-width: 599px) {
+    .styleguide-sidebar {
+      left: -200px;
+      top: 30px; } }
+  @media (min-width: 600px) {
+    .styleguide-sidebar {
+      left: 0;
+      top: 0; } }
+  .styleguide-sidebar a {
+    padding: 5px 10px;
+    display: block; }
+    .styleguide-sidebar a.active {
+      color: #fff;
+      background-color: #313c5a; }
+
+.styleguide-sidebar--show {
+  left: 0;
+  transition: all 0.2s linear; }
+  @media (max-width: 599px) {
+    .styleguide-sidebar--show {
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); } }
+
+.styleguide-link-label {
+  color: #313c5a;
+  background: #f1f1f1;
+  border-radius: 50%;
+  font-size: 71.42857%;
+  font-weight: 700;
+  padding: 2px 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+.styleguide-logo {
+  display: block;
+  margin: 0 auto 30px; }
+
+.styleguide-heading {
+  text-align: center;
+  margin: 0; }
+
+.styleguide-content {
+  padding: 50px 0 30px 0;
+  max-width: 1200px; }
+  @media (min-width: 600px) {
+    .styleguide-content {
+      padding: 30px 20px 0 220px;
+      margin: 0 auto; } }
+  .styleguide-content pre {
+    white-space: pre-wrap; }
+
+.styleguide-section {
+  padding: 60px 0 0 0; }
+  .styleguide-section > .styleguide-section-docs {
+    padding: 0 20px; }
+  .styleguide-section > h2 {
+    text-align: center; }
+
+.styleguide-section-docs {
+  max-width: 650px;
+  margin: 0 auto 20px auto; }
+
+.styleguide-section-block {
+  background-color: #fff;
+  padding: 20px; }
+  .styleguide-section-block > h3 {
+    color: #999;
+    text-align: center;
+    padding: 0 0 10px 0; }
+  .styleguide-section-block > h4 {
+    text-align: center;
+    margin-bottom: 10px; }
+
+.styleguide-section-files {
+  font-style: italic;
+  text-align: center;
+  margin: 0 0 20px 0; }
+
+.styleguide-code-inline {
+  font-family: "Inconsolata", monospace;
+  background-color: #fff;
+  padding: 0 2.5px; }
+
+.styleguide-code-block {
+  background-color: #c7e9dd;
+  border: 1px solid #3abb8d;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  display: block; }
+  .styleguide-demo-block .styleguide-code-block {
+    display: none; }
+
+.styleguide-demo-block .styleguide-code-block--show {
+  display: block; }
+
+.styleguide-dont,
+.styleguide-do {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.styleguide-do {
+  color: #3abb8d; }
+
+.styleguide-dont {
+  color: #d05858; }
+
+.btn-styleguide-code {
+  margin: 20px auto 30px;
+  display: block;
+  width: 100px; }
+
+.styleguide-box-demo {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0 20px; }
+  .styleguide-box-demo.white-bg, .styleguide-box-demo.gray-mist-bg {
+    border: 1px solid #dadee8; }
+
+.styleguide-demo-each--colors {
+  font-size: 85.71429%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .styleguide-demo-each--colors > div {
+    padding: 0 7.5px; }
+  .styleguide-demo-each--colors .white,
+  .styleguide-demo-each--colors .gray-mist,
+  .styleguide-demo-each--colors .color-disabled {
+    background-color: #666; }
+
+.styleguide-demo-each--spacing > div {
+  background-color: #f1f1f1;
+  margin: 0 0 10px 0; }
+
+.styleguide-demo-each--containers > div {
+  margin-bottom: 10px;
+  background-color: #c7e9dd; }
+
+.styleguide-demo-each--margin-auto > div {
+  background-color: #c7e9dd;
+  padding: 10px; }
+
+.styleguide-demo-each--buttons .btn {
+  margin: 0 0 10px 0; }
